@@ -1,6 +1,6 @@
 # biblioteca-front
 
-Aplicación web de gestión de una biblioteca: catálogo público, área de socio (préstamos, reservas y perfil) y área de administración para el bibliotecario. Es un proyecto de práctica para aprender **Angular 19**. Consume la API de [biblioteca-back](https://github.com/v1kz25/biblioteca-back).
+Aplicación web de gestión de una biblioteca: catálogo público, área de socio (préstamos, reservas y perfil) y área de administración para el bibliotecario. Es un proyecto de práctica para aprender **Angular 22**. Consume la API de [biblioteca-back](https://github.com/v1kz25/biblioteca-back).
 
 Las reglas del dominio están en [`docs/reglas-negocio.md`](docs/reglas-negocio.md).
 
@@ -45,10 +45,12 @@ _Pendiente: se decide y documenta en la issue F-01._
 
 Alterna back y front por milestone para ver resultados pronto.
 
-1. B-01 → F-01 → F-02
+1. B-01 → F-01 → U-04 → U-05 → U-06 → F-02 (U-01 a U-03, la subida a Angular 22, ya están hechas)
 2. **M1:** B-02 → B-03 → B-04 → F-03 → B-05 → F-06 → B-06 → F-07 → B-07 → F-08 → B-08 → B-09 → F-04 → F-05
 3. **M2:** B-10 → B-11 → F-09 → B-12 → F-10 → B-13 → F-11 → B-14 → F-12 → B-15 → F-13
 4. **M3:** B-16 → B-17 → F-14 → B-18 → F-15 → B-19 → B-20 → F-16 → F-17
 5. **M4:** B-21 → B-22 → F-18 → B-23 → F-19
 6. **M5:** B-24 → B-25 → B-26 → F-20 → F-21
 7. **M6:** a elegir
+
+Las issues U-07 a U-11 (novedades de Angular 20-22) se hacen junto a la funcionalidad donde se aplican: U-07 con F-02, U-08 y U-09 con F-04/F-05, U-10 con F-09 y U-11 con F-11.
